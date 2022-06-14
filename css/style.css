@@ -1,0 +1,569 @@
+body{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: LibreBaskerville-Regular;
+  src: url('../assets/fonts/LibreBaskerville-Regular.woff') format('woff'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'happy-times-NG';
+    src: url('../assets/fonts/happy-times-NG_bold_master_web.woff') format('woff'), url('../assets/fonts/happy-times-NG_italic_master_web.woff') format('woff'), url('../assets/fonts/happy-times-NG_regular_master_web.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'voyage';
+    src: url('../assets/fonts/11_43645_voyage-regular.woff') format('woff'), url('../assets/fonts/12_88878_voyage-bold.woff') format('woff');
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  /* background-color:#ddddFF; */
+  /* background: linear-gradient(217deg, #f7e7be, #feced8 100%),
+            linear-gradient(127deg, #c1b8a7, #f7e7be 100%),
+            linear-gradient(336deg, #feced8, #c1b8a7 100%); */
+}
+
+
+#home {
+  margin-top: 500px;
+}
+
+/* #mask {
+  z-index: 90;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: black;
+  opacity: 0;
+} */
+
+#titre-article {
+  color: #ddddFF;
+
+  /* position: absolute; */
+
+  z-index: 70;
+  /* margin-left: 10%; */
+  margin-top: 700px;
+  margin-left: 200px;
+  /* left: 600px; */
+  opacity: 0;
+  font-size: 10rem;
+  max-width: 80%;
+  font-family: 'voyage', serif;
+  font-weight: lighter;
+  /* font-weight: bold; */
+  /* color: white; */
+}
+
+body {
+
+  /* background-color: #222222; */
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+
+}
+
+/* Navigation */
+nav {
+
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 99;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+}
+
+nav ul li span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #FFFFFF;
+  width: 0%;
+  height: 3px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #2575FF;
+}
+
+/* ————— GLOBAL SCENES —————— */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container audio {
+  margin:2rem;
+  margin-left:0;
+
+}
+
+.boldItalic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.scene{
+  /* margin: 60px 0; */
+  padding:20px;
+  padding-left:200px;
+  padding-bottom: 1000px;
+}
+
+.scene p {
+  margin-top: 40px;
+  font-size: 1rem;
+  width: 60%;
+  columns: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  opacity: 0;
+  /* background-color: blue; */
+}
+
+.grid2 {
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 66vw;
+}
+
+.grid2 p {
+  width: 90% !important;
+  columns: 3 !important;
+  margin-top: 20px !important;
+}
+
+.grid2 h2 {
+  font-size: 2rem;
+}
+
+.verbatim {
+  position: absolute;
+  max-width : 40%;
+  left: 55%;
+  /* margin-top: 40px; */
+
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+
+  color: #2575FF;
+
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+.verbatimLegend {
+  font-size: 1rem !important;
+  font-style: normal !important;
+
+
+}
+
+
+h1 {
+  font-size: 3rem;
+  /* padding-left: 300px; */
+  /* width: 50vw; */
+  font-family: 'voyage', sans-serif;
+  /* font-weight: bold; */
+  font-style: italic;
+}
+
+/* ————— CONTENU SCENE 1 ————— */
+
+#scene1 {
+  margin-top: 1000px;
+}
+
+#repereScene1{
+  width: 10px;
+  height: 10px;
+  /* background-color: blue; */
+  /* margin-bottom: 40vh; */
+}
+
+
+
+
+#commentaireAnthropoScene1 {
+  color: #2575FF;
+  /* background-color: green; */
+  z-index: 50;
+  opacity: 0;
+  margin-left: 70px;
+  padding-top: 100px;
+  transform: translateX(200px);
+}
+
+#commentaireAnthropoScene1 p {
+  opacity: 1;
+}
+
+/* ————— SCENE PROLOGUE REPAS DE FAMILLE ——————— */
+
+#scenePrologue {
+
+/* margin-top: 100px !important;  */
+}
+
+#textVideoContentPrologue {
+
+  width: 80%;
+  height: 20%;
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#textVideoContentPrologue p {
+  width: 48% !important;
+}
+
+#commentaireAnthropoScenePrologue {
+  color: #2575FF;
+  /* background-color: green; */
+  z-index: 50;
+  opacity: 0;
+  padding-top: 60px;
+  margin-left: 70px;
+  transform: translateX(200px);
+}
+
+#commentaireAnthropoScenePrologue p {
+
+  opacity: 1;
+}
+
+#sceneProloguecontent audio {
+  margin-top: 40px;
+  opacity: 0;
+}
+
+#sceneProloguecontent video {
+  max-width: 33vw;
+  max-height: 40vh;
+  margin-top: 40px;
+  border-radius: 10px;
+  /* position: absolute; */
+  opacity: 0;
+
+}
+
+#verbatim1 {
+  top: 2rem;
+}
+
+#verbatim2 {
+  top: 15rem;
+}
+
+
+/* ————— SCENE 2 ————— */
+
+
+#scene2 {
+  /* margin-top:10000px !important; */
+}
+
+#scene2content p { 
+  opacity: 0;
+  /* position: absolute; */
+}
+
+#scene2 img {
+  position: absolute;
+  right: 100px;
+  max-width : 30vw;
+  opacity: 0;
+  transform: translateX(200px);
+  border-radius: 10px;
+
+  /* transition: transform 1s; */
+}
+
+#scene2content h2{
+  margin-top: 40px;
+
+  /* position: absolute; */
+  z-index: 80;
+  /* left: 0; */
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  width: 35vw;
+  font-size: 4rem;
+  opacity: 0;
+  margin-left: 10%;
+  /* color: white !important; */
+  /* transition: opacity 1s; */
+
+
+
+}
+
+#scene2content p {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#txtPhoto {
+  display: flex;
+}
+
+/* #commentaireAnthropoScene2 {
+  position:  absolute;
+  width: 70%;
+  color: #2575FF;
+  background-color: green;
+  z-index: 50;
+  opacity: 0;
+  margin-left: 70px;
+
+
+  transform: translateX(200px);
+} */
+
+#commentaireAnthropoScene2 p {
+  opacity: 1;
+}
+
+
+#verbatim3 {
+  /* position: absolute; */
+  left: 250px;
+  top: 12rem;
+  margin-top: 320px;
+  z-index: 90;
+}
+
+#verbatim4 {
+  /* position: absolute; */
+  left: 250px;
+  margin-top: 350px;
+  top: 18rem;
+  z-index: 90;
+}
+
+/* ————— SCENE 4 ————— */
+
+
+
+#commentaireAnthropoScene4 {
+  color: #2575FF;
+  /* background-color: green; */
+  z-index: 50;
+  opacity: 0;
+  margin-left: 70px;
+  transform: translateX(200px);
+}
+
+#commentaireAnthropoScene4 p {
+  opacity: 1;
+}
+
+#scene4content {
+  opacity: 0;
+}
+
+#scene4content p {
+  opacity: 1;
+}
+
+#scene4content audio {
+  margin-top: 40px;
+  /* opacity: 0; */
+}
+
+#scene4 img {
+position: absolute;
+  width: 3000px;
+}
+
+#verbatim5 {
+  top: 16rem;
+}
+
+#verbatim6 {
+  top: 24rem;
+}
+
+
+
+
+
+/* ————— SCENE 5 —————— */
+
+#scene5 img {
+  position : absolute;
+  max-height: 300px;
+  max-width: 500px;
+  margin-left: 0;
+  transition: margin-left 1s;
+}
+
+#scene5-txt-2 {
+  columns: 2;
+  transition: opacity 1s;
+}
+
+#scene5 hgroup {
+  display : flex;
+  margin-top: 330px;
+}
+
+#scene5 hgroup p {
+  opacity: 0;
+  margin: 20px;
+  columns: 2 !important;
+}
+
+#commentaireAnthropoScene5 {
+  color: #2575FF;
+  /* background-color: green; */
+  z-index: 50;
+  opacity: 1;
+  padding-top: 200px;
+  margin-left: 70px;
+  /* transform: translateX(200px); */
+}
+
+#commentaireAnthropoScene5 p {
+  opacity: 1;
+}
+
+#verbatim7 {
+  /* top: 200px; */
+  left: 550px;
+}
+
+
+
+/* ————— SCENE 6 - TONTON ———— */
+
+#commentaireAnthropoScene6 {
+  color: #2575FF;
+  /* background-color: green; */
+  z-index: 50;
+  opacity: 0;
+  margin-left: 70px;
+  /* transform: translateX(200px); */
+  top: 400px;
+  position: absolute;
+}
+
+#commentaireAnthropoScene6 p {
+  opacity: 1;
+  width: 35% !important;
+  columns: 1!important;
+  position: absolute;
+
+}
+
+#scene6content{
+  /* display: flex; */
+}
+
+#scene6content img {
+  /* position: absolute; */
+  opacity: 0;
+  max-width: 400px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: 600px;
+}
+
+
+
+/* ——————— SCENE 7 — SYNTHESE ——————— */
+
+
+#containerScene7 {
+  display: flex;
+  width: 90%;
+  align-items:flex-start;
+
+  /* justify-content: space-between; */
+}
+
+#scene7content p {
+  margin-top: 60px;
+  font-size: 1rem;
+  width: 66%;
+  columns: 2;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  opacity: 0;
+  /* background-color: blue; */
+}
+
+/* .pDroite {
+  margin-left: 20%;
+} */
+
+
+#scene7content2 {
+  margin-top: 120px;
+}
+
+#scene7content2 p {
+  margin-top: 60px;
+  font-size: 1rem;
+  width: 120%;
+  color: #2575FF;
+  columns: 1;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  opacity: 0;
+  /* background-color: blue; */
+}
+
+
+
+/* // ————————————— TRANSITION FIN - RETOUR DEBUT ———————— */
+
+#maskTransition {
+  width: 100%;
+  height: 100vh;
+
+  opacity: 0;
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(63,94,251,0) 100%);
+  /* background-color: red; */
+}

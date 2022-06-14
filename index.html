@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Les secrets de famille</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.8.4/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/icon-style.css">
+
+
+</head>
+
+<body>
+
+  <section id="home">
+    <h1 id="titre-article">Les secrets de famille</h1>
+
+  </section>
+  <div id="background"></div>
+
+  <nav>
+    <ul>
+      <li id="menu-item-1"><span></span><a href="#scene1">Partie 1</a></li>
+      <li id="menu-item-prologue"><span></span><a href="#scenePrologue">Partie 2</a></li>
+
+      <li id="menu-item-2"><span></span><a href="#scene2">Partie 3</a></li>
+      <!-- <li id="menu-item-3"><span></span><a href="#scene3">Partie 4</a></li> -->
+      <li id="menu-item-4"><span></span><a href="#scene4">Partie 4</a></li>
+      <li id="menu-item-5"><span></span><a href="#scene5">Partie 5</a></li>
+      <li id="menu-item-6"><span></span><a href="#scene6">Partie 6</a></li>
+      <li id="menu-item-7"><span></span><a href="#scene7">Partie 7</a></li>
+
+    </ul>
+  </nav>
+
+
+
+  <!-- DEBUT SCENE 1 -->
+
+  <!-- <div id="mask"> </div> -->
+
+
+
+  <section id="scene1" class="scene">
+    <hgroup>
+
+      <div id="scene1content">
+        <h1 id="titleScene1">1 — Compte-rendu : <br> enquête de terrain</h1>
+        <p>Nous sommes quatre étudiants de design, Louis, Lucile, Ameline et Rose et nous nous sommes penchés sur la dualité entre archives et secrets. Après une formation en anthropologie, nous sommes partis sur le terrain afin de nous confronter
+          aux vrais enjeux des interviews.
+
+          En discutant chacun de notre côté du projet avec nos proches, nous avons récupéré le contact de Stéphanie, une femme de 44 ans, susceptible d’être intéressée par notre projet. Après un court échange par téléphone où nous lui avons exposé
+          notre projet plus en détail nous avons convenu dans un rendez-vous chez elle.
+          Stéphanie, maman de deux enfants a choisi de nous raconter ce qu’elle a découvert sur sa famille. Un choix délicat, une interview remplie d’émotion.
+        </p>
+      </div>
+
+
+      <div class="grid2" id="commentaireAnthropoScene1">
+        <h2><span class="icon-arrow-down-right2"></span>Observations</h2>
+        <p style="max-width: 50%; columns : 1 !important; ">Travaillant sur un sujet intime, <span class="boldItalic">"le secret"</span>, nous avons décidé de prendre plusieurs extraits de différentes interviews afin de retranscrire un récit. Cette
+          manière de relater nos observations ne dénature pas la véracité de nos interviews et permet aux personnes interrogées de garder leur anonymat.
+        </p>
+
+
+      </div>
+      <!-- <div id="repereScene1"></div> -->
+    </hgroup>
+
+  </section>
+
+  <!-- ——————— SCENE 1.5 — PROLOGUE ———————— -->
+
+  <section id="scenePrologue" class="scene">
+    <hgroup>
+
+      <div id="sceneProloguecontent">
+        <h1 id="titleScenePrologue">2 — Le repas de famille</h1>
+
+        <div id="textVideoContentPrologue">
+
+
+
+          <p>C'est pendant un repas de Noël que j'ai entendu parler pour la première fois de ce fameux Jean. <br><br>
+
+            C'était pendant une discussion que nous avions eue autour du repas que mon oncle Jacques commencait à raconter des anecdotes sur mon père quand il était jeune. Lors du récit de mon oncle, j'ai pu remarquer que le prénom de Jean apparut, mais,
+            bizarrement, quand j'ai voulu savoir qui il était... On m'a dit "non t'en fait pas, c'était personne, une vieille histoire". C'est tout ce que j'avais à ce moment, un prénom.
+
+            <br><br>Mais j'ai senti comme un malaise général quand j'ai voulu en savoir plus sur lui.
+
+            C'est probablement ce malaise qui m'a poussé à savoir qui était ce fameux Jean.
+          </p>
+          <video autoplay>
+            <source src="assets/video/repas-famille.webm" type="video/webm">
+            <source src="assets/video/repas-famille.mp4" type="video/mp4">
+          </video>
+
+          <h3 id="verbatim1" class="verbatim"> "J’entendais parler de gens sans pouvoir poser de visage ou de nom" <br> <span class="verbatimLegend"> — Interview Sophie D. — 25/11/21 </span> </h3>
+          <h3 id="verbatim2" class="verbatim">"J’ai quelques archives de mon père, mais pour savoir son histoire, j’ai dû reprendre contact avec avec ma tante pour qu’elle me parle de lui."<br> <span class="verbatimLegend"> — Interview Sandra G.
+              — 17/11/21</span> </h3>
+
+
+        </div>
+
+        <!-- <audio id="myAudio" controls>
+          <source src="https://archive.org/download/cd_dark-side-of-the-moon_pink-floyd/disc1/01.%20Pink%20Floyd%20-%20Speak%20to%20Me%20-%20Breathe_sample.mp3" type="audio/mp3" />
+        </audio> -->
+      </div>
+
+      <div class="grid2" id="commentaireAnthropoScenePrologue">
+        <h2><span class="icon-arrow-down-right2"></span>Observations</h2>
+        <p>
+
+
+          Dans ce cas précis, la prononciation d'un prénom inconnu a amorcé le début des recherches. Lors de nos interviews, nous avons découvert deux manières bien distinctes d'amorcer le début des recherches.
+
+          Nous avons constaté deux formes d'interpellations qui sont revenues plusieurs fois : <br><br>
+
+          Une personne inconnue se trouve sur plusieurs photos ce qui amène un questionnement "qui est-elle ?" <br><br>
+
+          Une personne connue qui n'apparaît pas dans les archives alors qu'elle existe "Pourquoi n'est-elle pas sur les archives ?" <br><br>
+
+          Le début de questionnement survient à cause d'un manque ou au contraire une personne supplémentaire.<br><br>
+
+          Les interviews nous on permis de mettre en avant une friction entre effacement et apparition.<br><br>
+          <span class="boldItalic">Un manque :</span>
+          <br>
+          On a conscience qu'il manque quelque chose parce que l'on connaît cette chose.<br><br>
+
+          <span class="boldItalic"> En plus :</span>
+
+          <br>
+          On remarque qu'il y a quelque chose en plus parce que l'on ne connait pas cette chose.
+
+          <br> <br>
+          Le deuxième point de friction se situe entre le savoir / ignorance.
+
+        </p>
+        <div class="container">
+          <audio controls>
+            <source src="assets/audio/decouverte-cousins.mp3.mp3" type="audio/mp3">
+
+          </audio>
+          <h2 style="font-style: italic;">— Découvertes en série</h2>
+        </div>
+        <p style="max-width:28%; columns : 1 !important;">La découverte d'un membre de la famille suscite généralement de la curiosité qui nous pousse à vouloir en savoir plus et éclaircir cette zone d'ombre. Cela passe alors par une collecte
+          d'archives sur cette personne pour comprendre son histoire.
+        </p>
+
+      </div>
+      <!-- <div id="repereScene1"></div> -->
+    </hgroup>
+  </section>
+
+
+  <!-- ———— PARTIE 3 — SCENE 2 —————— -->
+
+  <section id="scene2" class="scene">
+    <h1>3 — Visite chez Mémé</h1>
+
+    <div id="scene2content">
+      <p> Quelque temps après la période des fêtes de fin d'année. Je suis retournée voir ma mamie en Bretagne, simplement pour savoir comment elle allait. Elle m'a proposé de faire une partie de scrabble. J'ai dit oui, avec plaisir et je suis allée
+        le chercher au grenier. 
+        <br><br>
+        Quand je suis arrivée dans le grenier, il y avait plus de choses qu'avant, je vis un carton qui n'y était pas et j'y ai jeté un petit coup d'œil. Il y avait plein de choses, mais une photo a attiré mon attention au milieu de toutes ces lettres
+        et autres papiers. La photo que j'ai trouvée était assez mystérieuse, il manquait la tête de la personne... Je pris une photo du contenu de ce carton et mamie arriva dans le grenier. Je pris la photo pour lui demander qui c'était, mais elle
+        me dit <span class="boldItalic">"Repose cette photo ! C'est personne !"</span>. <br><br> Mamie semblait plutôt embarrassée et un peu énervée. Donc je n'ai pas insisté, après avoir fait notre partie de scrabble, je suis rentrée chez moi.
+        <br> <span style="color : #ddddFF;"> Fin de projet RDV CHEZ MÉMÉ</span>
+
+      </p>
+      <div id="txtPhoto">
+        <h2>"C'est qui ce type sur la photo ?"</h2>
+        <img src="assets/img/carton-photos.png" alt="">
+      </div>
+      <h3 id="verbatim3" class="verbatim">"Mais alors pourquoi Mémé ne veut pas m’en parler ?"<br> <span class="verbatimLegend">— Stéphanie P.H. </span> </h3>
+
+      <h3 id="verbatim4" class="verbatim">"J'avais aperçu ces archives dans le magasin de mes parents sans pouvoir y accéder"<br> <span class="verbatimLegend">— Dominique D.</span> </h3>
+
+    </div>
+
+
+
+
+
+
+
+
+  </section>
+
+  <!-- ——————— SCENE 4 — VISTE CHEZ LA TANTE  ———————— -->
+
+  <section id="scene4" class="scene">
+    <hgroup>
+      <h1 id="titleScene4">4 — Visite chez Tata</h1>
+      <div id="scene4content">
+
+        <p>Je vais voir ma tante Eva pour lui raconter un petit peu ce que je fais ces derniers temps, on prend un café, si mes souvenirs sont bons, c'est à ce moment-là en lui montrant mes photos que je suis retombée sur celle du carton et lui ai
+          demandé : <br> "Dit moi tatie, tu ne reconnaîtrais pas cette personne sur la photo ? ". Elle prit un peu de temps pour me répondre, elle semblait se souvenir de choses lointaines et me dit : <br>
+
+          « sur cette photo c'est Jean, il me semble que c'est un ami à ton père si je me souviens bien, j’en ai vaguement entendu parler mais je n’en sais pas plus.»
+          <br><br>
+          Au final, après avoir vu ma tante, je n'ai pas eu beaucoup plus d'indices, je savais juste qu'il existait. 
+        </p>
+        <audio id="myAudio" controls style="margin-bottom: 30px;">
+          <source src="assets/audio/villeurbanne.mp3.mp3" type="audio/mp3" />
+        </audio>
+
+
+        <h3 id="verbatim5" class="verbatim">"Ça donne envie d'aller toujours plus loin, plus loin dans l'énigme qu'on est en train de résoudre"<br> <span class="verbatimLegend">— Dominique.T </span> </h3>
+
+        <h3 id="verbatim6" class="verbatim">"On ne l'a pas vu depuis plusieurs années, nous l'avons perdu de vue"<br> <span class="verbatimLegend">— Tante Eva M. </span> </h3>
+      </div>
+
+      <img src="assets/img/maison.png" alt="">
+      <p style="opacity:1 !important; transform : translateY(-35px) translateX(20px);">— Maison de la tante</p>
+
+
+      <div class="grid2" id="commentaireAnthropoScene4">
+        <h2><span class="icon-arrow-down-right2"></span>Observations</h2>
+        <p>Les personnes plus extérieures à l'histoire ont plus de facilités à répondre à des questions délicates. Plus le lien de parenté est proche plus la gêne est importante. <br><br>
+          Pour réaliser des recherches, il est intéressant de s'adresser à des membres proches et à des membres extérieurs ou moins proches. Le dialogue est plus léger et souple, car il y a moins d'enjeux et plus de recul sur la situation. Lorsque
+          l'on parle avec des personnes proches, les répercussions de la discussion sont plus importantes, et nous atteignent personnellement.
+        </p>
+      </div>
+      <!-- <div id="repereScene1"></div> -->
+    </hgroup>
+  </section>
+
+
+
+  <!-- ———— SCENE 5 —————— -->
+
+  <section id="scene5" class="scene">
+    <h1>5 — Fouiller les cartons chez Mémé</h1>
+    <p>texte de la scene 5 </p>
+
+    <img id="scene5-img-12" src="assets/img/1.png" alt="">
+    <img id="scene5-img-10" src="assets/img/3.png" alt="">
+    <img id="scene5-img-8" src="assets/img/4.png" alt="">
+    <img id="scene5-img-6" src="assets/img/7.png" alt="">
+    <img id="scene5-img-4" src="assets/img/IMG_3377.png" alt="">
+    <img id="scene5-img-2" src="assets/img/IMG_6103.png" alt="">
+
+
+    <hgroup>
+      <p id="scene5-txt-2">J'ai trouvé dans le carton, différentes photos, une revue de l'époque et des lettres. Un grand nombre de ces lettres parlait de la guerre. Elles étaient très touchantes et montraient un aperçu sur comment cette période a pu
+        être vécue. J'ai également pu trouver des photos de personnes que je connaissais en plus de la photo mystère. Il y avait des affiches dont une de la fncpg, et en plus de cela, j'ai trouvé une chronique de Rhône-Alpes. Cela m'a permis de voir
+        quels loisirs il y avait à l'époque.
+      </p>
+
+    </hgroup>
+    <h3 class="verbatim" id="verbatim7">" Cela permet de connaître des histoires du passé, de pouvoir imaginer comment les personnes vivaient avant nous. J'ai pu constater des différences entre les histoires racontées à la famille et les histoires d'origine."
+      <span class="verbatimLegend">— Micheal C.</span>
+    </h3>
+    <!-- <div class="grid2" id="commentaireAnthropoScene5">
+
+
+
+      <h2><span class="icon-arrow-down-right2"></span>Observations</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl nisi. Ut sem viverra aliquet eget sit amet tellus cras adipiscing.
+        Neque egestas congue quisque egestas diam in arcu cursus euismod. Orci phasellus egestas tellus rutrum. Cursus eget nunc scelerisque viverra. Tortor at auctor urna nunc id cursus. Aliquam sem et tortor consequat id porta nibh. Vulputate mi
+        sit amet mauris commodo quis imperdiet massa. Porttitor leo a diam sollicitudin. Nunc faucibus a pellentesque sit amet porttitor eget dolor morbi. Suscipit tellus mauris a diam maecenas sed enim ut. Massa enim nec dui nunc mattis. Et tortor
+        consequat id porta nibh venenatis cras sed.</p>
+    </div> -->
+
+  </section>
+
+
+
+  <!-- —————— SCENE 6 — TONTON ——————— -->
+
+  <section id="scene6" class="scene">
+    <h1>6 — Visite chez le Tonton <span style="color : #ddddFF; ">que c'est</span> </h1>
+    <hgroup id="scene6content">
+      <p>Quelque temps après avoir vu ma tante, je suis allée voir mon oncle, car je pensais qu'il serait la clé pour savoir qui est Jean. C'est autour d'une discussion avec sous les yeux un album photo, qui illustrait les anecdotes dont il parlait
+        lors du repas de Noël, qu'il me raconta toute l'histoire de ce fameux Jean. <br><br> J'ai appris quelle était la relation que Jean entretenait avec mon père et pourquoi mamie était aussi troublée par cette histoire. Cela aurait impacté
+        l'image de mon père et de notre famille de ce que mon oncle Jacques m'a dit. Il a bien insisté sur le fait, que je ne devais en aucun cas raconter ce qu'il m'avait appris à mon père et ma mère, car cela leur ferait du mal. Mon oncle m'a dit
+        que ma mère n'était pas au courant de cette histoire et que mon père n'avait plus de contact avec lui, car son père avait fait en sorte qu'il sorte de sa vie.
+      </p>
+      <img src="assets/img/annees-ecole.jpg" alt="">
+
+    </hgroup>
+
+
+    <div class="grid2" id="commentaireAnthropoScene6">
+      <h2><span class="icon-arrow-down-right2"></span>Observations</h2>
+      <p>Dans les différents interview que nous avons réalisés on se rend très vite compte que la mise en lumière de secret de famille ne se fait jamais d'un seul coup, c'est un très long processus.
+
+        <br><br> La plupart du temps différents acteurs entrent en
+        jeux afin de mettre en surface les secrets enfouis. Dans ce cas précis, le secret est révélé partiellement puisque les protagonistes du secret ne sont pas au courant que l'histoire est révélée. On est face à une mise en lumière du secret qui
+        laisse tout de même des zones d'ombres. Nous avons retrouvé ces zones d'ombres dans plusieurs interviews, souvent lorsque le secret révélé est trop impactant et violent à entendre afin de préserver l'économie familiale.
+      </p>
+    </div>
+  </section>
+
+  <!-- ——————— SCENE 7 - SYNTHESE —————— -->
+
+  <section id="scene7" class="scene" style="padding-bottom:0 !important;">
+    <h1 style="margin-bottom:50px;">Conclusion / synthèse du rapport d'enquête</h1>
+    <div id="containerScene7">
+
+<span id="flecheScene7" class="icon-arrow-down-right2" style="font-size:3rem; margin:10px; opacity :0;"></span>
+    <hgroup id="scene7content">
+
+      <p class="pDroite">Dans cette étude nous avons pu nous pencher sur les relations entre archives et secrets. Ceux-ci perdurent au fil des générations, a travers les mémoires et les archives. C'est l'un des aspects sur lequel nous avons travaillé. Nous avons pu voir et déduire de nos enquêtes que le travail de recherche autour des archives et des secrets qui peuvent y être liés, débute par une forte volonté de vouloir connaître, découvrir ce qu'il se cache derrière les non-dits. Ceci mène parfois à un vrai travail d'archéologue, permettant de déterrer les histoires enfouies.</p>
+      <p class="pDroite">Nous avons eu pour intention de retranscrire nos enquêtes à travers un parcours de lecture constitué de deux niveaux. <br><br> Le premier retrace un récit. Le second correspond à une analyse de ce que nous avons appris et retenu de
+        nos différentes enquêtes. Ces deux niveaux que nous avons présentés ici, permettent à l'utilisateur de suivre notre raisonnement en découvrant en même temps les différentes étapes clés qui ont permis la découverte du secret.
+      <br><br>  Cette manière de voir le récit, plonge l'utilisateur dans une expérience audiovisuelle immersive qui met en valeur les points de contact entre le récit, les archives et les secrets afin de pouvoir en tirer diverses observations.</p>
+
+    </hgroup>
+    <hgroup id="scene7content2">
+
+
+        <p>Grâce à nos rencontres, nous avons pu faire différentes expériences et voir l'impact que peut avoir le secret et les archives sur les personnes interrogées. Ces interactions, nous ont permis d'observer divers comportements, réactions mais
+          aussi qu’elles ont pu être les émotions produites par notre intervention.</p>
+        <p>Après nos entretiens, certaines personnes continuent de prolonger ou commencent des recherches sur leurs archives, et sur les secrets qu'il peuvent découvrir en les parcourant.</p>
+
+
+      </hgroup>
+    </div>
+  </section>
+
+<div id="maskTransition"></div>
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
